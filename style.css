@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/new_background_1.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+section.butt {
+    display: block;
+    justify-content: center;
+    gap: 2em;
+}
+
+div.left-column {
+    display: block;
+    justify-content: center;
+    
+}
+div.right-column {
+    display: block;
+    justify-content: center;    
+}
+div.titlu {
+    color: gray;
+    font-weight: bold;
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    margin-top: 2em;
+}
+div.butoane {
+    display: flex;
+    justify-content: space-between;   
+    
+}
+button.button1 {
+    color: white;
+    background-color: green;
+    margin-top: 1em;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: green solid 1px;
+
+    
+}
+button.button2 {
+    color: white;
+    background-color: green;
+    margin-top: 1em;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: green solid 1px;
+}
+button.button3 {
+    color: white;
+    background-color: green;
+    margin-top: 1em;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: green solid 1px;
+}
+section.regim {
+    display: flex;
+
+}
+div.regim {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-top: 20px;
+}
+div.regim h3 {
+    color: white;
+    font-size: 15px;
+}
+section.cautare {
+    display: flex;
+}
+div.cautare {
+    background-color: white;
+    justify-content: space-between;
+}
+button.stergere {
+    background-color: transparent;
+    border: none;
+    color:red;
+    font-size: 25px;
+}

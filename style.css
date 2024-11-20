@@ -90,10 +90,29 @@ section.cautare {
 div.cautare {
     background-color: white;
     justify-content: space-between;
+    display: flex;
+    align-items: space-around;
+}
+div .introducere {
+    border: solid red 2px;
+    width: 100%;
 }
 button.stergere {
     background-color: transparent;
     border: none;
     color:red;
     font-size: 25px;
+    
+    justify-content: flex-end;
+}
+div.red {
+    border: red solid 2px;
+    height: 100px;
+    width: 100px;
+}
+span.mdi {
+    border: red 2px solid;
+    height: 70px;
+    width: 70px;
+
 }

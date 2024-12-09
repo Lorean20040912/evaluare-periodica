@@ -111,7 +111,7 @@ div.regim h3 {
    
     color: white;
     font-size: 15px;
-    font-size: bold;
+    font-weight: bold;
 
 }
 section.cautare {
@@ -161,6 +161,10 @@ button.scriere {
     padding: 0;
     background-color: white;
 }
+button input.introducere {
+    border: none;
+    outline: none;
+}
 
 .down {
     background-color: white;
@@ -177,4 +181,47 @@ button.scriere {
     display: block;
 }
 
+.zile {
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.jos {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: start;
+    width: 100%;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.content a {
+    color: black;
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/*.zile:hover .content {
+    display: block;
+}*/
+
+.jos:focus + .content {
+    display: block;
+}
+span.ziua {
+    font-weight: bold;    
+}
 

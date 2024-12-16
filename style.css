@@ -409,8 +409,45 @@ span.tabel {
 }
 .legenda {
     margin-top: 15px;
-    border: red 2px solid;
     color: white;
     font-size: 13px;
     text-align: center;
+}
+.butonele {
+    margin-top: 15px;
+    border: red 2px solid;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    color: white;
+    font-size: 15px;
+}
+.descarca {
+    background-color: #25975A;
+    border-radius: 5%;
+    border: white 0.5px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+}
+.examene {
+    background-color: #f0506e;
+    border-radius: 15%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.planificare {
+    background-color: rgb(123, 70, 105);
+    border-radius: 15%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.mdi-file-pdf-box {
+    font-size: 2px;
+    background-color: black;
+}
+img.examene {
+    size: 10px;
 }

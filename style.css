@@ -437,7 +437,8 @@ img.descarca {
     width: auto;
     border: none;
 }
-.examene {
+.examene {   
+    all: unset;
     background-color: #f0506e;
     border-radius: 15%;
     padding-left: 5px;
@@ -446,6 +447,7 @@ img.descarca {
     justify-content: center;
 }
 .planificare {
+    all: unset;
     background-color: rgb(123, 70, 105);
     border-radius: 15%;
     padding-left: 5px;

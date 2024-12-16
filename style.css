@@ -197,7 +197,7 @@ button input.introducere {
     padding: 0.5px 16px;
     text-decoration: none;
     display: block;
-   
+
 }
 
 .zile {
@@ -252,7 +252,165 @@ span.ziua {
     margin-top: 15px;
     z-index: 1;
 }
+
 .orar {
+    margin-top: 15px;
     display: grid;
+    grid-template-columns: 25% auto auto auto auto auto auto auto;
+    grid-template-rows: 10% auto auto auto auto auto auto auto;
+    height: 200px;
+    background-color: white;
+
+}
+
+.item {
+    border: gray solid 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.item-1 {
+    background-color: #25975A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 0.5px solid;
+}
+
+.item-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+    border: white 0.5px solid;
+}
+
+.item-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+    border: white 0.5px solid;
+}
+
+.item-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+    border: white 0.5px solid;
+}
+
+.item-5 {
+    border: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-6 {
+    border: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-7 {
+    border: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-8 {
+    border: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-9 {
+    border-top: white 0.5px solid;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-17 {
+    border-top: white 0.5px solid;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-25 {
+    border-top: white 0.5px solid;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-33 {
+    border-top: white 0.5px solid;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-41 {
+    border-top: white 0.5px solid;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-49 {
+    border-top: white 0.5px solid;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+.item-57 {
+    border: white 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25975A;
+}
+
+span.tabel {
+    color: white;
+    text-align: center;
+}
+.legenda {
+    margin-top: 15px;
     border: red 2px solid;
+    color: white;
+    font-size: 13px;
+    text-align: center;
 }

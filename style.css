@@ -518,42 +518,63 @@ h1 {
     background-color: white;
 }
 .itemul1 {
+    display: block;
+    text-align: center;
     background-color: #25975A;
     border-left: white 0.5px solid;
     border-right: white 0.5px solid;
     border-top: white 0.5px solid;
 }
 .itemul3 {
+    display: block;
+    text-align: center;
     background-color: #25975A;
     border-left: white 0.5px solid;
     border-right: white 0.5px solid;
     border-top: white 0.5px solid;
 }
 .itemul5 {
+    display: block;
+    text-align: center;
     background-color: #25975A;
     border-left: white 0.5px solid;
     border-right: white 0.5px solid;
     border-top: white 0.5px solid;
 }
 .itemul7 {
+    display: block;
+    text-align: center;
     background-color: #25975A;
     border-left: white 0.5px solid;
     border-right: white 0.5px solid;
     border-top: white 0.5px solid;
 }
 .itemul9 {
+    display: block;
+    text-align: center;
     background-color: #25975A;
     border-left: white 0.5px solid;
     border-right: white 0.5px solid;
     border-top: white 0.5px solid;
 }
 .itemul11 {
+    display: block;
+    text-align: center;
     background-color: #25975A;
     border-left: white 0.5px solid;
     border-right: white 0.5px solid;
     border-top: white 0.5px solid;
 }
 .itemul13 {
+    display: block;
+    text-align: center;
     background-color: #25975A;
     border: 0.5px solid white;
+}
+p.ora {
+    color: white;
+    margin: 0;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
 }

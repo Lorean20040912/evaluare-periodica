@@ -260,7 +260,8 @@ span.ziua {
 }
 
 .item {
-    border: gray solid 0.5px;
+    border-right: gray solid 0.5px;
+    border-top: gray solid 0.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,7 +273,9 @@ span.ziua {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: white 0.5px solid;
+    border-top: white 0.5px solid !important;
+    border-left: white solid 0.5px !important;
+    border-right: white solid 0.5px !important;
 }
 
 .item-2 {
@@ -280,7 +283,9 @@ span.ziua {
     justify-content: center;
     align-items: center;
     background-color: #25975A;
-    border: white 0.5px solid;
+    border-top: white 0.5px solid;
+    border-right: white solid 0.5px;
+    
 }
 
 .item-3 {
@@ -288,7 +293,8 @@ span.ziua {
     justify-content: center;
     align-items: center;
     background-color: #25975A;
-    border: white 0.5px solid;
+    border-top: white 0.5px solid;
+    border-right: white solid 0.5px;
 }
 
 .item-4 {
@@ -296,11 +302,13 @@ span.ziua {
     justify-content: center;
     align-items: center;
     background-color: #25975A;
-    border: white 0.5px solid;
+    border-top: white 0.5px solid;
+    border-right: white solid 0.5px;
 }
 
 .item-5 {
-    border: white 0.5px solid;
+    border-top: white 0.5px solid;
+    border-right: white solid 0.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,7 +316,8 @@ span.ziua {
 }
 
 .item-6 {
-    border: white 0.5px solid;
+    border-top: white 0.5px solid;
+    border-right: white solid 0.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,7 +325,8 @@ span.ziua {
 }
 
 .item-7 {
-    border: white 0.5px solid;
+    border-top: white 0.5px solid;
+    border-right: white solid 0.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,7 +334,8 @@ span.ziua {
 }
 
 .item-8 {
-    border: white 0.5px solid;
+    border-top: white 0.5px solid;
+    border-right: white 0.5px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -480,17 +491,69 @@ div.right-column {
     justify-content: center;
     width: 704px;
 }
-div.right-column div.logo img.logo {
-    width: 200px;
-    border: red 3px solid;
+div.logo {
     display: flex;
     justify-content: center;
+    height: 110px;
+    margin-top: 30px;
 }
-
+.perechi {
+    margin-top: 15px;
+}
 h1 {
     color: white;
     font-weight: 900 !important;
     font-size: 1.25rem !important;
-    border: red 2px solid;
     text-align: center;
+    margin: 0 !important;
+    padding: 0;
+}
+.denumirea-perechi {
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto;
+    height: 420.8px;
+    margin: 0 !important;
+    padding: 0;
+    background-color: white;
+}
+.itemul1 {
+    background-color: #25975A;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    border-top: white 0.5px solid;
+}
+.itemul3 {
+    background-color: #25975A;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    border-top: white 0.5px solid;
+}
+.itemul5 {
+    background-color: #25975A;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    border-top: white 0.5px solid;
+}
+.itemul7 {
+    background-color: #25975A;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    border-top: white 0.5px solid;
+}
+.itemul9 {
+    background-color: #25975A;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    border-top: white 0.5px solid;
+}
+.itemul11 {
+    background-color: #25975A;
+    border-left: white 0.5px solid;
+    border-right: white 0.5px solid;
+    border-top: white 0.5px solid;
+}
+.itemul13 {
+    background-color: #25975A;
+    border: 0.5px solid white;
 }

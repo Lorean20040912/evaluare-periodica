@@ -578,3 +578,14 @@ p.ora {
     width: 100%;
     text-align: center;
 }
+/* culoarea galbena la apropiere*/
+.orar .item:nth-child(8n+9):hover {
+    background-color: bisque;
+}
+.denumirea-perechi .items:nth-child(2n+1):hover ,
+    .denumirea-perechi .items:nth-child(2n+2):hover {
+    
+        background-color: bisque;
+    }
+    
+
